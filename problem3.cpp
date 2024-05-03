@@ -45,7 +45,7 @@ int main(){
     vector<int> separationLevels=findSeparationLevels(graph, 0);
     cout<<"Separation levels from source user (user 0):\n";
     for(int i = 0; i < n; ++i){
-        cout<<"User "<<i<<": "<<separationLevels[i]<<endl;
+        cout<<separationLevels[i]<<endl;
     }
     return 0;
 }
